@@ -1,0 +1,73 @@
+color1 {color: #1e2a30;}
+color2 {color: #2e4147;}
+color3 {color: #466267;}
+color4 {color: #678f91;}
+color5 {color: #93c8c4;}
+
+.App {
+  min-height: 100vh;
+  background-color:#1e2a30;
+}
+.generalContainer{
+  border-radius: 10%;
+  position: absolute;
+  width: 30%;
+  height: 70%;
+  background-color:#678f91;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  
+}
+
+.button{
+  text-align: center;
+  margin-left: 45%;
+  font-size: 20px;
+}
+
+.colsutarDiv{
+  display:grid;
+  margin-top:4%;
+  justify-content: center;
+  padding: 5%;
+  font-size: 40px;
+  background-color:#93c8c4 ;
+}
+
+.imgDiv{
+  display:grid;
+  border-radius: 5%;
+  justify-content: center;
+  padding: 5%;
+  font-size: 40px;
+}
+
+.userDiv{
+  border-radius: 5%;
+  display:grid;
+  margin-top:10%;
+  justify-content: center;
+  padding: 5%;
+  font-size: 40px;
+  background-color:#93c8c4 ;
+}
+
+.passDiv{
+  border-radius: 5%;
+  display:grid;
+  height: 20%;
+  justify-content: center;
+  padding: 5%;
+  font-size: 40px;
+  background-color:#93c8c4 ;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Georgia;
+}
+
